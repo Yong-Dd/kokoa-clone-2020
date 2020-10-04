@@ -1,5 +1,6 @@
 #chat-screen {
-    background-color: #abc1d1;
+    /* background-color: #abc1d1; */
+    background-color: #ECF1F4;
     height: 500vh;
 }
 
@@ -13,7 +14,8 @@
 
 #chat-screen .alt-header,
 #chat-screen .status-bar {
-    background-color: #abc1d1;
+    /* background-color: #abc1d1; */
+    background-color: #ECF1F4;
 }
 
 #chat-screen .status-bar {
