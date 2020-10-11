@@ -2,11 +2,11 @@
     text-align: center;
     width: 100%;
     display: block;
-    background-color: #f7f7f7d5;
+    background-color: #f8f8eacb ;
     padding: 15px 0px;
     font-size: 16px;
     font-weight: 600;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     margin-top: -10px;
 }
 
@@ -29,7 +29,8 @@
     margin-bottom: 30px;
     display: flex;
     justify-content: space-between;
-    color: var(--gray-color);
+    color: var(--choco);
+    font-weight: 600;
 }
 
 @keyframes hidSplashScreen {
@@ -44,7 +45,7 @@
 }
 
 #splash-screen {
-    background-color: var(--yellow);
+    background-color: var(--choco);
     position: absolute;
     height: 100vh;
     width: 100vw;
@@ -55,4 +56,8 @@
     font-size: 50px;
     animation: hidSplashScreen 0.3s ease-in-out forwards;
     animation-delay: 0.5s;
+}
+
+#splash-screen>i{
+    color: var(--main-color);
 }

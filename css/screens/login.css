@@ -35,32 +35,37 @@
 }
 
 #login-form input:not([type="submit"]) {
-    border-bottom: 1.5px solid rgba(0, 0, 0, 0.2);
+    border-bottom: 1.5px solid var(--choco);
+    opacity: 0.6;
     transition: border-color 0.3s ease-in-out;
 }
 
 #login-form input::placeholder {
-    color: rgba(0, 0, 0, 0.4);
+    color: var(--choco);
+    opacity: 0.6;
 }
 
 #login-form input:focus {
     outline: none;
-    border-color: var(--yellow);
+    border-color: var(--main-color);
 }
 
 /*not 처리했고 위치 옮겨봐도 안되며, input의 border-bottom을 없애야만 가능해서 
   우선 둘 다 남겨두기위해 botder-bottm:none을 남겨둠*/
 #login-form input[type="submit"] {
     border-bottom: none;
-    background-color: var(--yellow);
+    background-color: var(--main-color);
     cursor: pointer;
     padding: 20px 0px;
     border-radius: 5px;
+    color: var(--choco);
 }
 
 #login-form a {
     text-align: center;
     text-decoration: none;
-    color: inherit;
-    font-size: 15px;
+    color: var(--choco);
+    font-size: 14px;
+    opacity: 0.8;
+    
 }

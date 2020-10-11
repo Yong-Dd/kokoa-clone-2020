@@ -27,7 +27,7 @@ body {
   height: 1000px;
   /*  color: #2e363e; */
   color: var(--choco);
-  background-color: var(--main-color);
+  background-color: white;
 }
 
 .main-screen {

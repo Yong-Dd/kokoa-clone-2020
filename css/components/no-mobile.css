@@ -2,14 +2,14 @@
     position: absolute;
     z-index: 99;
     height: 100vh;
-    background-color: var(--yellow);
+    background-color: var(--choco);
     width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
     top: 0;
     font-size: 30px;
-
+    color: var(--main-color);
 }
 
 @media screen and (max-width:645px) {
